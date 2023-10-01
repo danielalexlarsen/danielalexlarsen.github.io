@@ -19,12 +19,11 @@ footer{
 
 .logo {
     display: inline-block;
-    margin-right: 10px; /* Optional: add some spacing between the logos */
-}
+    margin-right: 50px; /* Increase the margin to create more space */
+  }
 
 a{
     text-align: center;
-    text-decoration: underline;
 }
 
 nav{
