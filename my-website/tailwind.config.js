@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}",],
+  content: [
+    "./App.vue",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    dark: {},
+    cyberpunk: {},
+  },
+
+  daisyui: {
+    themes: ["cyberpunk", "dark",],
   },
   plugins: [require("daisyui")],
 }
